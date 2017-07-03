@@ -1,0 +1,303 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+body,html{
+	width: 100%;
+	height: 100%;
+}
+#bigbox{
+	width: 100%;
+}
+a{
+	text-decoration: none;
+}
+li{
+	list-style: none;
+}
+.header{
+	width: 100%;
+	height: 16rem;
+	background: url(../img/mobike-d-1.jpg)no-repeat;
+	background-size: 100%;
+	background-attachment: fixed;
+}
+nav{
+	width: 100%;
+	/*min-width: 820px;*/
+	height: 3rem;
+	border-bottom: 1px solid rgba(250,250,250,0.3);
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+}
+nav>img{
+	width: 10rem;
+	height: 1.5rem;
+	color: white;
+	margin-top: 10px;
+	margin-left: 2rem;
+}
+nav>ul{
+	width: 85%;
+	display: flex;
+	flex-direction: row;
+	justify-content: flex-end;
+	border: 0px solid black;
+	display: none;
+}
+nav>ul>li{
+	list-style: none;
+	width: 100px;
+}
+nav>ul>li>a{
+	display: block;
+	width: 100px;
+	height: 2.2rem;
+	padding-top: 14px;
+	text-decoration: none;
+	text-align: center;
+	color: white;
+	font-size: 14px;
+	font-weight: bold;
+}
+
+#navs{
+	display: none;
+	background-color: white;
+	position: fixed;
+	top: 0;
+}
+
+#navs>ul>li>a{
+	color: #9D9D9D;
+}
+.lis{
+	width: 100px;
+	height: 1.8rem;
+	background-color: white;
+	color: black;
+	border-radius: 30px;
+	padding-top: 5px;
+	margin-top: 8px;
+	font-size: 16px;
+} 
+.header_1{
+	width: 3rem;
+	height: 3rem;
+	border-left: 1px solid white;
+	opacity: 0.5;
+}
+.header_1>span{
+	display: block;
+	width: 10px;
+	height: 10px;
+	border: 1px solid white;
+	margin: 1rem auto;
+}
+.header>div{
+	width: 50%;
+	min-width: 430px;
+	height: 6rem;
+	margin: 3rem auto;
+	border: 0px solid black;
+	color:  white;
+	font-size: 16px;
+	text-align: center;
+}
+.header>div>p{
+	text-align: center;
+}
+.header_2{
+	width: 100%;
+	height: 80%;
+	background-color: #252730;
+	position: absolute;
+	top: 0;
+	display: none;
+}
+.dia1{
+	display: block;
+	width: 10px;
+	height: 10px;
+	border: 1px solid white;
+	opacity: 0.5;
+	float: right;
+	margin: 1rem;
+}
+.header_2_1{
+	width: 12rem;
+	border: 0px solid black;
+	text-align: center;
+	margin: 6rem auto;
+}
+.header_2_1>img{
+	width: 6rem;
+}
+.header_2_1>ul>li>a{
+	color: #CCCCCC;
+	line-height: 30px;
+}
+.header_2_1>ul{
+	margin-bottom: 1rem;
+}
+.header_2_1>div>a{
+	color: #CCCCCC;
+	font-size: 14px;
+}
+.header_2_1>div{
+	color: #8C8C8C;
+	font-size: 10px;
+	margin-top: 2rem;
+	margin-bottom: 2rem;
+}
+
+/*中间部分*/
+.mid{
+	width: 95%;
+	margin: 0 auto;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	
+}
+.mid1{
+	width: 100%;
+}
+.sty{
+	color: coral;
+}
+.mid_1{
+	width: 100%;
+	margin-top: 4rem;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	border: 0px solid black;
+}
+.mid_1_1{
+	width: 100%;
+}
+.mid_1_1>h1>a{
+	display: block;
+	font-size: 24px;
+	font-weight: normal;
+	margin-bottom: 8px;
+	color: #262626;
+}
+.mid_1_1>span{
+	font-size: 14px;
+}
+.mid_1_1>img{
+	width: 100%;
+	display: block;
+	margin-top: 1rem;
+}
+.mid_1_1>p{
+	margin: 1rem;
+	font-size: 14px;
+}
+.mid_1_1>b>a{
+	font-size: 14px;
+}
+.mid_1_2{
+	width: 27%;
+}
+.mid_1_2>span>a{
+	display: block;
+	margin-top: 10px;
+	margin-bottom: 2.7rem;
+	font-size: 18px;
+}
+.lett{
+	letter-spacing: 3px;
+}
+.mid_1_2>p{
+	font-size: 10px;
+	margin-top: 10px;
+}
+.mid_1_2>p>a{
+	font-size: 14px;
+}
+.mid_2{
+	margin: 5rem;
+	font-size: 14px;
+}
+
+.mid2{
+	width: 100%;
+	border: 0px solid black;
+	/*margin-top: 4rem;*/
+	margin-bottom: 5rem;
+}
+
+.mid2>span>a{
+	display: block;
+	/*margin-top: 5px;*/
+	margin-bottom: 1.5rem;
+	font-size: 18px;
+}
+.mid2>h4{
+	margin-bottom: 10px;
+}
+.lett{
+	letter-spacing: 1px;
+}
+.mid2>p{
+	font-size: 10px;
+	margin-top: 10px;
+}
+.mid2>p>a{
+	font-size: 14px;
+	letter-spacing: 1px;
+	font-weight: bold;
+}
+p{
+	letter-spacing: 1px;
+}
+footer{
+	width: 100%;
+	background-color: #f05b49;
+	display: flex;
+	flex-direction: column;
+	position: relative;
+}
+footer>a>img{
+	display: block;
+	margin: 0 auto;
+	width: 8rem;
+	padding-top: 3rem;
+}
+footer>div{
+	width: 10rem;
+	height: 1.5rem;
+	border: 0px solid black;
+	margin: 0 auto;
+	margin-top: 3rem;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	margin-bottom: 8rem;
+}
+footer>div>img{
+	width: 20%;
+}
+footer>span{
+	margin: 0 auto;
+	font-size: 10px;
+	color: white;
+	opacity: 0.7;
+	letter-spacing: 1px;
+	display: none;
+}
+.imgs{
+	background: url(../img/mobike-wechat-text.png);
+	position: absolute;
+	width: 6rem;
+	height: 6rem;
+	background-size: 100%;
+	top: 20%;
+	left: 65%;
+	display: none;
+}
+
